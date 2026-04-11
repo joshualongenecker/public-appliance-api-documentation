@@ -50,7 +50,7 @@ def collect_api_erd_ids(api_data: dict) -> set[str]:
 
 
 def base_name(name: str) -> str:
-    """Strip trailing 'Status' or 'Request' suffix and normalise."""
+    """Strip trailing 'Status' or 'Request' suffix and normalize."""
     n = name.strip()
     n = re.sub(r"\s+Status$", "", n, flags=re.IGNORECASE)
     n = re.sub(r"\s+Request$", "", n, flags=re.IGNORECASE)
