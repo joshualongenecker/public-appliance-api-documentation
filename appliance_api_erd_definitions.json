@@ -2827,7 +2827,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Battery Temperature: Temperature in Fahrenheit."
   }, {
@@ -2870,6 +2870,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Display Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -2893,6 +2894,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Desired Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -3153,6 +3155,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -3329,6 +3332,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Hot Water Desired Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -3392,7 +3396,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Deli Pan Desired Temperature: Temperature in Fahrenheit."
   }, {
@@ -3582,6 +3586,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Temperature Pan Current Setting: Temperature sensor, unit not explicitly specified."
   }, {
@@ -3792,6 +3797,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Temperature Pan Control Settings: Temperature sensor, unit not explicitly specified."
   }, {
@@ -4120,6 +4126,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Convertible Drawer Modes Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -4286,6 +4293,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Adjustable Convertible Drawer Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -4345,7 +4353,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "ConvertibleDrawer Actual Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -5014,6 +5023,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Desired Temperature Setpoint (Kelvin) Upper Compartment: Temperature sensor, unit not explicitly specified."
   }, {
@@ -5032,6 +5043,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Desired Temperature Setpoint (Kelvin) Lower Compartment: Temperature sensor, unit not explicitly specified."
   }, {
@@ -5050,6 +5063,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Desired Temperature Setpoint (Kelvin) Middle Compartment: Temperature sensor, unit not explicitly specified."
   }, {
@@ -5184,6 +5199,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Actual Temperature Setpoint (Kelvin) Upper Compartment: Temperature sensor, unit not explicitly specified."
   }, {
@@ -5202,6 +5219,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Actual Temperature Setpoint (Kelvin) Lower Compartment: Temperature sensor, unit not explicitly specified."
   }, {
@@ -5220,6 +5239,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Actual Temperature Setpoint (Kelvin) Middle Compartment: Temperature sensor, unit not explicitly specified."
   }, {
@@ -6976,7 +6997,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "Fresh Food Actual Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -6995,7 +7017,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "Freezer Actual Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -7572,6 +7595,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "K",
+    "scaling_factor": 32,
     "confidence": "medium",
     "comment": "Ambient Thermistor Temperature (Kelvin): Temperature sensor, unit not explicitly specified."
   }, {
@@ -8422,6 +8447,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Temperature Board Application Version: Temperature sensor, unit not explicitly specified."
   }, {
@@ -9044,6 +9070,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Low Temperature Alert: Temperature sensor, unit not explicitly specified."
   }, {
@@ -11488,6 +11515,7 @@
     "ha_domain": "sensor",
     "device_class": "humidity",
     "unit_of_measurement": "%",
+    "scaling_factor": 100,
     "confidence": "high",
     "comment": "Ambient Humidity Percent: Humidity percentage sensor."
   }, {
@@ -20139,6 +20167,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Legacy - Washer Remote Wash Temperature Level: Temperature sensor, unit not explicitly specified."
   }, {
@@ -20621,7 +20650,7 @@
       "size": 4
     }],
     "ha_domain": "sensor",
-    "scaling_factor": 100,
+    "scaling_factor": 1000,
     "confidence": "medium",
     "comment": "Max Water Level: Single numeric writable value."
   }, {
@@ -20889,7 +20918,7 @@
       "size": 4
     }],
     "ha_domain": "sensor",
-    "scaling_factor": 100,
+    "scaling_factor": 1000,
     "confidence": "medium",
     "comment": "Calibrated Pressure: Single numeric read-only sensor."
   }, {
@@ -20908,7 +20937,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "high",
     "comment": "Water Temperature Thermistor: Temperature value with degF unit."
@@ -21276,6 +21305,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Dryer Temperature Level Request: Temperature sensor, unit not explicitly specified."
   }, {
@@ -21361,6 +21391,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Dryer Temperature Option Allowables: Temperature sensor, unit not explicitly specified."
   }, {
@@ -21387,6 +21418,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Dryer Temperature Option Selection: Temperature sensor, unit not explicitly specified."
   }, {
@@ -26347,6 +26379,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Water Temperature Option: Temperature sensor, unit not explicitly specified."
   }, {
@@ -26383,6 +26416,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Water Temperature Option Request: Temperature sensor, unit not explicitly specified."
   }, {
@@ -26843,6 +26877,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°C",
     "confidence": "medium",
     "comment": "Water Temperature Option Allowable: Temperature sensor, unit not explicitly specified."
   }, {
@@ -56773,6 +56808,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "paired_erd": "0x2250",
     "pair_role": "request",
@@ -56839,6 +56875,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "paired_erd": "0x224f",
     "pair_role": "status",
@@ -56955,6 +56992,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Commercial Remote Dry Temperature Limits: Temperature sensor, unit not explicitly specified."
@@ -57259,6 +57297,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "paired_erd": "0x2256",
     "pair_role": "request",
@@ -57325,6 +57364,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "paired_erd": "0x2255",
     "pair_role": "status",
@@ -57441,6 +57481,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Commercial Remote Cooldown Temperature Limits: Temperature sensor, unit not explicitly specified."
@@ -57858,6 +57899,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Mabe - Temperature Level Selection: Temperature sensor, unit not explicitly specified."
   }, {
@@ -60605,7 +60647,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Water Temperature: Temperature in Fahrenheit."
   }, {
@@ -61038,7 +61080,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Dry Heater Temperature: Temperature in Fahrenheit."
   }, {
@@ -64869,6 +64911,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Wash Temperature Setting: Temperature sensor, unit not explicitly specified."
   }, {
@@ -66360,7 +66403,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Tub1 Water Temperature: Temperature in Fahrenheit."
   }, {
@@ -69650,6 +69693,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Tub 1 Wash Temperature Setting: Temperature sensor, unit not explicitly specified."
   }, {
@@ -69834,7 +69878,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "User Setpoint Temperature: Temperature in Fahrenheit."
   }, {
@@ -69853,7 +69898,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Vacation Setpoint Temperature: Temperature in Fahrenheit."
   }, {
@@ -69872,7 +69918,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Actual Setpoint Temperature: Temperature in Fahrenheit."
   }, {
@@ -70083,7 +70130,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Min/max allowed setpoint: Temperature in Fahrenheit."
   }, {
@@ -70107,7 +70155,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Min/max allowed vacation setpoint: Temperature in Fahrenheit."
   }, {
@@ -70852,7 +70901,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T1 Temperature: Temperature in Fahrenheit."
   }, {
@@ -70871,7 +70921,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T2 Temperature: Temperature in Fahrenheit."
   }, {
@@ -70890,7 +70941,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T3a Temperature: Temperature in Fahrenheit."
   }, {
@@ -70909,7 +70961,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T3b Temperature: Temperature in Fahrenheit."
   }, {
@@ -70928,7 +70981,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T4 Temperature: Temperature in Fahrenheit."
   }, {
@@ -70947,7 +71001,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T5 Temperature: Temperature in Fahrenheit."
   }, {
@@ -70967,6 +71022,7 @@
     "ha_domain": "sensor",
     "device_class": "current",
     "unit_of_measurement": "A",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Measured current: Current sensor."
   }, {
@@ -71103,7 +71159,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T6 Temperature: Temperature in Fahrenheit."
   }, {
@@ -71189,7 +71246,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Groundwater Temperature: Temperature in Fahrenheit."
   }, {
@@ -71208,7 +71266,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "T7 Temperature: Temperature in Fahrenheit."
   }, {
@@ -71228,7 +71287,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "MC CPU Temperature: Temperature in Fahrenheit."
   }, {
@@ -71248,7 +71308,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "MC Circuit Board Temperature: Temperature in Fahrenheit."
   }, {
@@ -71268,7 +71329,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "MC Power Connector Temperature: Temperature in Fahrenheit."
   }, {
@@ -71903,6 +71965,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Oven Minimum and Maximum Temperatures: Temperature sensor, unit not explicitly specified."
   }, {
@@ -72876,6 +72939,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Air Fry Oven Minimum and Maximum Temperatures: Temperature sensor, unit not explicitly specified."
   }, {
@@ -74141,6 +74205,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Upper Oven Probe Display Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -74197,6 +74262,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Upper Oven User Temperature Offset: Temperature sensor, unit not explicitly specified."
   }, {
@@ -74251,6 +74317,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Upper Oven Display Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -74910,7 +74977,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Upper Oven Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -74930,6 +74997,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Upper Oven Baking Surface Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -79851,6 +79919,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Lower Oven Probe Display Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -79907,6 +79976,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Lower Oven User Temperature Offset: Temperature sensor, unit not explicitly specified."
   }, {
@@ -79961,6 +80031,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Lower Oven Display Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -80620,7 +80691,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Lower Oven Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -89353,6 +89424,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Cooktop Built-In Temperature Sensors: Temperature sensor, unit not explicitly specified."
   }, {
@@ -90348,6 +90420,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Closed-Loop Cooking Target Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -90366,7 +90439,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "scaling_factor": 100,
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Closed-Loop Cooking Current Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -91834,7 +91908,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "scaling_factor": 100,
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Front Left Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -91854,7 +91929,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "scaling_factor": 100,
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Rear Left Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -91874,7 +91950,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "scaling_factor": 100,
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Front Center Left Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -91894,7 +91971,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "scaling_factor": 100,
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Rear Center Left Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -92252,7 +92330,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "Front Right Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -92272,7 +92351,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "Rear Right Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -92292,7 +92372,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "Bridge/Sync Closed Loop Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -103697,6 +103778,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Hood Heat Sensor Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -105399,6 +105481,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Environmental Temperature Update Idle Period in Minutes: Temperature sensor, unit not explicitly specified."
   }, {
@@ -105417,6 +105500,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Requested Environmental Temperature Idle Update Period in Minutes: Temperature sensor, unit not explicitly specified."
   }, {
@@ -105435,6 +105519,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Request Update of Environmental Temperature (F): Temperature sensor, unit not explicitly specified."
   }, {
@@ -105484,7 +105569,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Environmental Temperature: Temperature in Fahrenheit."
   }, {
@@ -108238,6 +108323,7 @@
       "size": 1
     }],
     "ha_domain": "sensor",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Microwave Defrost by Weight - Current Setting: Single numeric writable value."
   }, {
@@ -108787,6 +108873,7 @@
       "size": 1
     }],
     "ha_domain": "sensor",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Microwave Defrost by Weight - Maximum Allowed Setting: Single numeric read-only sensor."
   }, {
@@ -109957,6 +110044,7 @@
       "size": 1
     }],
     "ha_domain": "sensor",
+    "scaling_factor": 10,
     "confidence": "low",
     "comment": "Microwave Auto Roast Mode - Current Setting: Multi-field sensor, may need custom handling to extract individual values."
   }, {
@@ -110434,7 +110522,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Microwave Oven Temperature Range: Temperature sensor, unit not explicitly specified."
   }, {
@@ -118625,6 +118713,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Target Heating Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -118643,7 +118732,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Target Cooling Temperature: Temperature in Fahrenheit."
   }, {
@@ -119207,7 +119296,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only inside ambient temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119228,7 +119317,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only inside coil temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119248,7 +119337,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only outside ambient temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119268,7 +119357,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only outside coil temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119288,7 +119377,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only processed inside ambient temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119309,7 +119398,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only indoor outlet temperature; YAML usage confirms x10 scaling. Divide raw i16 by 10 to get degF.",
@@ -119330,7 +119419,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only processed outside ambient temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119350,7 +119439,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only indoor coil vapor temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119370,7 +119459,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only outdoor coil vapor temperature; description explicitly states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119410,7 +119499,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only suction temperature; description states 'degrees F x 10'. Divide raw i16 by 10 to get degF.",
@@ -119431,7 +119520,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only outdoor coil liquid temperature; YAML usage confirms x10 scaling consistent with other coil temperatures.",
@@ -119451,7 +119540,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "device_class": "temperature",
     "comment": "High confidence: Read-only processed indoor ambient temperature (rounded integer); description states 'degrees F' with no scaling. Raw value = actual degF.",
     "confidence": "high"
@@ -119470,7 +119559,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "device_class": "temperature",
     "comment": "High confidence: Read-only processed outdoor ambient temperature (rounded integer); description states 'degrees F' with no scaling. Raw value = actual degF.",
     "confidence": "high"
@@ -119490,7 +119579,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "device_class": "temperature",
     "comment": "Medium confidence: Read-only estimated external thermostat target setpoint; assumed degF without explicit scaling.",
     "confidence": "medium"
@@ -119510,7 +119599,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "device_class": "temperature",
     "comment": "Medium confidence: Read-only target dew point temperature; assumed degF without explicit scaling.",
     "confidence": "medium"
@@ -119530,7 +119619,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Read-only measured dew point temperature; YAML usage confirms x10 scaling. Divide raw i16 by 10 to get degF.",
@@ -120416,6 +120505,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Cool Temperature Limit Mode: Temperature sensor, unit not explicitly specified."
   }, {
@@ -120444,6 +120534,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Heat Temperature Limit Mode: Temperature sensor, unit not explicitly specified."
   }, {
@@ -122269,7 +122360,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: EEV Target Superheat Temperature in degF x10. Divide raw i16 by 10 to get degF.",
@@ -122290,7 +122381,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: EEV Actual Superheat Temperature in degF x10. Divide raw i16 by 10 to get degF.",
@@ -122431,7 +122522,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: IGBT temperature in degrees C x10. Divide raw value by 10 to get degC. The YAML converts to degF for display: ((value/10) * 9/5) + 32.",
@@ -122635,7 +122726,7 @@
       "size": 1
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Temperature setpoint step size in DegreesFx10. Divide raw value by 10 for actual degF step size.",
@@ -122655,7 +122746,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "paired_erd": "0x7707",
@@ -122677,7 +122768,7 @@
       "size": 2
     }],
     "ha_domain": "number",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "paired_erd": "0x7706",
@@ -122704,7 +122795,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Configured range for user heating setpoint; min/max in DegreesFx10. Divide by 10 for degF.",
@@ -122724,7 +122815,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "paired_erd": "0x770a",
@@ -122746,7 +122837,7 @@
       "size": 2
     }],
     "ha_domain": "number",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "paired_erd": "0x7709",
@@ -122773,7 +122864,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "High confidence: Configured range for user cooling setpoint; min/max in Fahrenheit x10. Divide by 10 for degF.",
@@ -122877,7 +122968,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Writable user heating setpoint minimum limit request; assumed DegreesFx10.",
@@ -122902,7 +122993,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Read-only allowed range for user heating setpoint minimum limit; assumed DegreesFx10.",
@@ -122922,7 +123013,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Writable user heating setpoint maximum limit request; assumed DegreesFx10.",
@@ -122947,7 +123038,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Read-only allowed range for user heating setpoint maximum limit; assumed DegreesFx10.",
@@ -122967,7 +123058,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Writable user cooling setpoint minimum limit request; assumed DegreesFx10.",
@@ -122992,7 +123083,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Read-only allowed range for user cooling setpoint minimum limit; assumed DegreesFx10.",
@@ -123012,7 +123103,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Writable user cooling setpoint maximum limit request; assumed DegreesFx10.",
@@ -123037,7 +123128,7 @@
       "size": 2
     }],
     "ha_domain": "sensor",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "device_class": "temperature",
     "comment": "Medium confidence: Read-only allowed range for user cooling setpoint maximum limit; assumed DegreesFx10.",
@@ -123996,6 +124087,7 @@
     }],
     "ha_domain": "binary_sensor",
     "device_class": "moisture",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Refrigerant Leak Sensor LFL Percentage x10: Leak/moisture detection binary sensor."
   }, {
@@ -125327,6 +125419,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Compressor Suction Temperature (Ts) and Discharge Temperature (Td): Temperature sensor, unit not explicitly specified."
@@ -125346,6 +125439,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Outdoor Pipe temperature (Toci): Temperature sensor, unit not explicitly specified."
@@ -125432,6 +125526,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "ODU Gas Pipe temperatures (Tc1 - A,B,C,D,E): Temperature sensor, unit not explicitly specified."
@@ -125471,6 +125566,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "ODU Liquid Pipe temperatures (Tc2 - A,B,C,D,E): Temperature sensor, unit not explicitly specified."
@@ -125587,6 +125683,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Inverter Module Temperature: Temperature sensor, unit not explicitly specified."
@@ -126112,6 +126209,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Outdoor temperature permits Self Clean operation: Temperature sensor, unit not explicitly specified."
   }, {
@@ -127594,7 +127692,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79aa",
     "pair_role": "status",
     "confidence": "high",
@@ -127615,7 +127713,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79a9",
     "pair_role": "request",
     "confidence": "high",
@@ -127841,7 +127939,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Compressor Minimum Stage2 Temperature Delta allowable range: Temperature in Fahrenheit."
   }, {
@@ -127946,7 +128044,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Auto Mode Temperature Deadband allowable range: Temperature in Fahrenheit."
   }, {
@@ -128002,7 +128100,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Auxiliary Heat Minimum Temperature Delta allowable range: Temperature in Fahrenheit."
   }, {
@@ -128031,7 +128129,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "confidence": "high",
     "comment": "Indoor Ambient Temperature Sensor Calibration allowable range: Temperature in Fahrenheit."
   }, {
@@ -128154,7 +128252,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "paired_erd": "0x79c1",
     "pair_role": "status",
     "confidence": "medium",
@@ -128180,7 +128279,8 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "paired_erd": "0x79c0",
     "pair_role": "request",
     "confidence": "medium",
@@ -128202,7 +128302,8 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "scaling_factor": 10,
+    "unit_of_measurement": "°F",
+    "scaling_factor": 100,
     "confidence": "medium",
     "comment": "Ambient Temperature Sensor Status: Temperature sensor, unit not explicitly specified."
   }, {
@@ -128221,7 +128322,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79c4",
     "pair_role": "status",
     "confidence": "high",
@@ -128242,7 +128343,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79c3",
     "pair_role": "request",
     "confidence": "high",
@@ -128264,6 +128365,7 @@
     "ha_domain": "sensor",
     "paired_erd": "0x79c6",
     "pair_role": "status",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Blower Minimum Runtime Status: Single numeric read-only sensor."
   }, {
@@ -128283,6 +128385,7 @@
     "ha_domain": "number",
     "paired_erd": "0x79c5",
     "pair_role": "request",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Blower Minimum Runtime Request: Single numeric writable value."
   }, {
@@ -128302,6 +128405,7 @@
     "ha_domain": "sensor",
     "paired_erd": "0x79c8",
     "pair_role": "status",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Indoor Fan Delay Status: Door status sensor with multiple fields."
   }, {
@@ -128321,6 +128425,7 @@
     "ha_domain": "number",
     "paired_erd": "0x79c7",
     "pair_role": "request",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Indoor Fan Delay Request: Single numeric writable value."
   }, {
@@ -128377,9 +128482,10 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79cc",
     "pair_role": "status",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Auxiliary Heat Minimum Temperature Delta Status: Temperature in Fahrenheit."
   }, {
@@ -128398,9 +128504,10 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79cb",
     "pair_role": "request",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Auxiliary Heat Minimum Temperature Delta Request: Temperature in Fahrenheit."
   }, {
@@ -128419,9 +128526,10 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79ce",
     "pair_role": "status",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Indoor Ambient Temperature Sensor Calibration Status: Temperature in Fahrenheit."
   }, {
@@ -128440,9 +128548,10 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x79cd",
     "pair_role": "request",
+    "scaling_factor": 10,
     "confidence": "high",
     "comment": "Indoor Ambient Temperature Sensor Calibration Request: Temperature in Fahrenheit."
   }, {
@@ -128512,6 +128621,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "WAC Ambient Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -128676,7 +128786,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "confidence": "high",
     "comment": "Matter Thermostat Cluster Local Temperature: Temperature in Celsius."
   }, {
@@ -128695,7 +128805,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "confidence": "high",
     "comment": "Matter Thermostat Cluster Minimum Cooling Setpoint: Temperature in Celsius."
   }, {
@@ -128714,7 +128824,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "confidence": "high",
     "comment": "Matter Thermostat Cluster Maximum Cooling Setpoint: Temperature in Celsius."
   }, {
@@ -128750,7 +128860,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "paired_erd": "0x7a25",
     "pair_role": "request",
     "confidence": "high",
@@ -128771,7 +128881,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "paired_erd": "0x7a24",
     "pair_role": "status",
     "confidence": "high",
@@ -129233,6 +129343,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Target Temperature Range: Temperature sensor, unit not explicitly specified."
   }, {
@@ -129645,6 +129756,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Coffee Brewer Brew Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -129668,6 +129780,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Coffee Brewer Brew Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -130123,6 +130236,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Coffee Brewer Brew Current Outlet Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -130183,6 +130297,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Coffee Brewer Brew Temperature Request: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142027,6 +142142,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Actual Cavity Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142045,6 +142161,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Probe Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142085,6 +142202,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Target Cavity Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142108,6 +142226,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Probe Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142922,6 +143041,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Auto Warm Current Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142940,6 +143060,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Auto Warm Requested Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -142963,6 +143084,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Warm Mode Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -143061,7 +143183,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "paired_erd": "0x942c",
     "pair_role": "status",
     "confidence": "high",
@@ -143082,7 +143204,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "paired_erd": "0x942b",
     "pair_role": "request",
     "confidence": "high",
@@ -143108,7 +143230,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degC",
+    "unit_of_measurement": "°C",
     "confidence": "high",
     "comment": "Early Completion Notification Temperature Limits: Temperature in Celsius."
   }, {
@@ -143208,6 +143330,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Current Igniter Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -143226,6 +143349,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Requested Igniter Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -143249,6 +143373,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Igniter Temperature Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -143691,6 +143816,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Ambient Temperature: Temperature sensor, unit not explicitly specified."
   }, {
@@ -143709,6 +143835,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x9503",
     "pair_role": "status",
     "confidence": "medium",
@@ -143729,6 +143856,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "paired_erd": "0x9502",
     "pair_role": "request",
     "confidence": "medium",
@@ -143754,6 +143882,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
+    "unit_of_measurement": "°F",
     "confidence": "medium",
     "comment": "Temperature Offset Limits: Temperature sensor, unit not explicitly specified."
   }, {
@@ -144320,7 +144449,7 @@
     }],
     "ha_domain": "number",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0xd00c",
     "pair_role": "request",
     "confidence": "medium",
@@ -144426,7 +144555,7 @@
     }],
     "ha_domain": "sensor",
     "device_class": "temperature",
-    "unit_of_measurement": "degF",
+    "unit_of_measurement": "°F",
     "paired_erd": "0xd00b",
     "pair_role": "status",
     "confidence": "medium",
@@ -144649,6 +144778,7 @@
       "size": 4
     }],
     "ha_domain": "sensor",
+    "scaling_factor": 10,
     "confidence": "medium",
     "comment": "Appliance Cumulative Gas Usage: Single numeric read-only sensor."
   }, {
